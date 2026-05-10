@@ -1,0 +1,30 @@
+# Logs
+*.log
+logs
+lerna-debug.log*
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build and local files
+*.local
+/trash
+.node-ecosystem
+dev-config.local.json
+dist
+node_modules
+
+# Editor directories and files
+!.vscode/extensions.json
+*.njsproj
+*.ntvs*
+*.sln
+*.suo
+*.sw?
+.DS_Store
+.idea
+.vscode/*
+
+# AI
+.claude
